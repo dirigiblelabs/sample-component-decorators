@@ -2,7 +2,7 @@ import { response } from "sdk/http";
 import { Injected, Inject } from "sdk/component";
 import { PaymentComponent } from "./PaymentComponent"
 
-@Injected("myOrderProcessor")
+@Injected()
 class OrderProcessor {
 
     @Inject('myPaymentService')
