@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES6",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "moduleResolution": "Node",
+        "baseUrl": "../",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "paths": {
+            "sdk/*": [
+                "./modules/src/*"
+            ],
+            "/*": [
+                "./*"
+            ]
+        },
+        "types": [
+            "../modules/types"
+        ]
+    }
+}
