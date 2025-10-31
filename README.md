@@ -1,2 +1,2 @@
 # sample-component-decorators
-Sample how to use the Component, Injectable and Injected decorators
+Sample how to use the Component and Injected decorators
