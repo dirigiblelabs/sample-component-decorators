@@ -1,8 +1,8 @@
 import { response } from "sdk/http";
-import { Component, Inject } from "sdk/component";
+import { Injected, Inject } from "sdk/component";
 import { PaymentComponent } from "./PaymentComponent"
 
-@Component("myOrderProcessor")
+@Injected("myOrderProcessor")
 class OrderProcessor {
 
     @Inject('myPaymentService')
